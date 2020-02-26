@@ -13,7 +13,7 @@ build:
   script:
     - export FASTAVRO_USE_CYTHON=1  # [not win]
     - set FASTAVRO_USE_CYTHON=1  # [win]
-    - {{ PYTHON }} -m pip install . --no-deps -vv
+    - {{ PYTHON }} -m pip install . -vv
   entry_points:
     - fastavro = fastavro.__main__:main
 
