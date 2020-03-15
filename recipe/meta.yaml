@@ -9,7 +9,7 @@ source:
   sha256: c1bb045adf28ffaf572042b03ade8c32ab33eb4dac780d8b266b8fa3614c7ed8
 
 build:
-  number: 0
+  number: 1
   script:
     - export FASTAVRO_USE_CYTHON=1  # [not win]
     - set FASTAVRO_USE_CYTHON=1  # [win]
