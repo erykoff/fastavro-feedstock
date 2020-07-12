@@ -5,7 +5,7 @@ Home: https://github.com/fastavro/fastavro
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Fast read/write of AVRO files
 
