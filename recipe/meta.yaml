@@ -1,4 +1,4 @@
-{% set version = "0.24.1" %}
+{% set version = "0.24.2" %}
 
 package:
   name: fastavro
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/fastavro/fastavro-{{ version }}.tar.gz
-  sha256: d9cdee09dc5f0dc6fc0f67a01a3eb97ebcbbc7a77bf9bdd72d566e21aeb9a9dd
+  sha256: 960b30cf364cf9bfe17219fc9fac4958290ae2814e23b4b0edd54292fd28d08d
 
 build:
   number: 0
